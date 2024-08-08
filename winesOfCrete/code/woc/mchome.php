@@ -1,0 +1,1 @@
+<p>Welcome to the Wines of Crete e-shop</p>

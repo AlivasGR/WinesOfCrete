@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 26, 2017, 5:01:51 PM
+    Author     : George2017
+*/
+
+.wineContainer{
+    background-color:rgba(100,100,100,0.5);
+    border-color:maroon;
+    border-style:solid;
+    border-width:2px 2px 2px 15px;
+    margin:30px;
+    padding:10px;
+    border-radius:5px 0px 0px 5px;
+    min-height: 150px;
+}
+
+.wineContainer p{
+    text-align: left;
+    margin: 0px 0px 0px 40px;
+}
+
+.wineImage{
+    float: left;
+    width:50px;
+    height:150px;
+}
+
+.winePrice{
+    font-weight: bold;
+    font-size: 30px;
+    float:right;
+    width:80px;
+    position:relative;
+    bottom:62px;
+}
+.wineImage::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.wineContainer input[type=text]{
+    width:100px;
+    height:20px;
+    margin-left:50%;
+}
+
+.wineContainer input[type=submit]{
+    float:right;
+    height:25px;
+    width:20%;
+    background-color:bisque;
+    border: 2px solid black;
+    border-radius: 7px;       
+}
+
+.wineContainer input[type=submit]:hover{
+    background-color: coral;
+}
+
+.filterArea{
+    border-width: 0px 0px 2px 0px;
+    padding-bottom: 30px;
+    border-style: solid;
+    border-color: black;    
+}
+
+.filterArea td{
+    text-align: left;    
+    vertical-align:bottom;
+}
+
+.filterArea select, input{
+    height:40px;
+    width:90%;
+}
+
+.filterArea input[type=submit] {
+    background-color:bisque;
+    border: 2px solid black;
+    border-radius: 7px;   
+}
+
+.filterArea input[type=submit]:hover{
+    background-color: coral;
+}
+
+.mostPopularButton{
+    width:50%;
+}
+
+.winesSold{
+    font-weight: bold;
+    font-size: 15px;
+    float:right;
+    width:80px;
+    position:relative;
+    bottom:62px;
+}
+
+.trendingNumber{
+    padding:10px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+}
